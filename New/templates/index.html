@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Defense Pose Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Self-Defense Pose Detection</h1>
+        </header>
+        <main>
+            <div class="upload-section">
+                <label for="image-upload" class="upload-btn">Upload Pose Image</label>
+                <input type="file" id="image-upload" accept="image/*" onchange="loadImage(event)">
+            </div>
+            <div class="preview-section">
+                <img id="image-preview" src="#" alt="Image Preview" class="hidden">
+                <p id="feedback-message" class="feedback">Please upload an image to analyze the pose.</p>
+            </div>
+            <button id="analyze-btn" class="action-btn" onclick="analyzePose()">Analyze Pose</button>
+        </main>
+        <footer>
+            <p>&copy; 2024 Pose Detection System. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

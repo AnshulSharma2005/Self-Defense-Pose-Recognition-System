@@ -1,0 +1,5 @@
+Upload an Image for Pose Detection,Pose Feedback,Processed Image,timestamp
+,,,2024-12-18 19:09:39.970461
+.gradio\flagged\Upload an Image for Pose Detection\eb702d519c207b6c3c40\self defense.jpg,"Left Elbow Angle: 178.54
+Right Elbow Angle: 159.72
+Execution Time: 0.08 seconds",.gradio\flagged\Processed Image\5286fc2627c00fb2d79b\image.webp,2024-12-18 19:10:44.453113
